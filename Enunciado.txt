@@ -1,0 +1,41 @@
+Dúvida Etária
+Por Roger Eliodoro Condras, UFSC-ARA BR Brazil
+
+Timelimit: 1
+Não é apenas o Tobias que faz aniversário por esses dias. O meu também ocorre nessa época e todo ano eu tenho sempre a mesma dúvida, qual é a minha idade?
+
+Eu entrei na faculdade um pouco antes da idade que normalmente as pessoas entram e é comum as pessoas se assustarem um pouco quando eu falo quantos anos eu tenho. Elas  sempre acham que eu era mais velho. Isso só aumenta minha crise etária e minhas dúvidas sobre qual é a minha idade atual.
+
+Imagino que eu não a única pessoa que demore um certo tempo pensando na resposta para a pergunta “quantos anos você tem?”, então para ajudar a mim e a essas pessoas que também sofrem dessa dúvida etária, peço que você escreva um programa que dada o dia atual e a data de nascimento dessa pessoa informe quantos anos ela tem.
+
+Entrada
+A entrada do problema possuí 3 linhas.
+
+A primeira linha possui uma string N (3 
+≤
+ |N| 
+≤
+ 50) com o nome da pessoa e é formado apenas por letras minúsculas ou maiúsculas (‘A’-‘Z’, ‘a’-‘z’) e caracteres de espaço.
+
+A segunda linha possui uma string A com a data atual no formato “DD/MM/AAAA” e a última linha contém uma string B com a data de nascimento, também no formato “DD/MM/AAAA”. É garantido que a data de nascimento ocorreu antes da data atual e ambas as datas são válidas compreendidas entre 01/01/0001 e 31/12/9999.
+
+Saída
+Seu programa deve produzir uma linha com a mensagem “Voce tem X anos N.” (sem aspas), onde X é a idade da pessoa e N o seu nome. Caso a data atual coincida com a data de aniversário da pessoa, você deve imprimir “Feliz aniversario!” (sem aspas) uma linha antes de imprimir a resposta.
+
+Exemplos de Entrada	
+Roger
+18/08/2020
+20/08/1999
+
+Exemplos de Saída
+
+Voce tem 20 anos Roger.
+
+Tobias
+18/08/2020
+18/08/1998
+
+Exemplos de Saída
+
+Feliz aniversario!
+Voce tem 22 anos Tobias.
